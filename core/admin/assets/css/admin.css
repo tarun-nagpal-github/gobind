@@ -1,0 +1,4321 @@
+/* Reset Css */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+input:focus,
+select:focus,
+textarea:focus{
+    box-shadow: none !important;
+}
+.center {
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+.lumise_sidebar a:hover, .lumise_wrapper a:hover, .lumise_sidebar a:focus, .lumise_wrapper a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.lumise_sidebar ul, .lumise_sidebar ol, ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lumise_sidebar ul li, .lumise_sidebar ol li, ul li, ol li {
+    margin: 0;
+}
+
+.lumise_content input::-webkit-input-placeholder {
+    color: #c9c9c9;
+    opacity: 1;
+    font-weight: 300;
+}
+
+.lumise_content input:-moz-placeholder {
+    color: #c9c9c9;
+    opacity: 1;
+    font-weight: 300;
+    opacity: 1;
+}
+
+.lumise_content input::-moz-placeholder {
+    color: #c9c9c9;
+    opacity: 1;
+    font-weight: 300;
+    opacity: 1;
+}
+
+.lumise_content input:-ms-input-placeholder {
+    color: #c9c9c9;
+    opacity: 1;
+    font-weight: 300;
+}
+
+.lumise_content input:focus, .lumise_content select:focus, .lumise_content textarea:focus {
+    outline: none;
+}
+body.toplevel_page_lumise .lumise_wrapper a:not(.lumise_btn):hover{
+    opacity: 0.65;
+}
+.lumise_content input, .lumise_content select, .lumise_content textarea {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease 0s;
+    font-size: 14px;
+    color: #666;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}
+.lumise_content input[type="button"], .lumise_content button[data-btn] {
+    float: left;
+    margin: 0 5px;
+    height: 34px;
+    padding: 0 14px;
+    background: #dcdcdc;
+    border: none;
+    line-height: 34px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+    color: #505050;
+}
+.lumise_content button[data-btn="primary"] {
+    background: #4db6ac;
+    color: #fff;
+}
+.lumise_content label {
+    cursor: pointer;
+}
+
+.lumise_content label img {
+    display: inline-block;
+    margin: 0px 2px -5px 10px;
+}
+.lumise_set_price{
+    border: 1px solid #ddd;
+    float: left;
+    width: 90px;
+    padding: 0 0 0 6px;
+    line-height: 38px;
+    height: 38px;
+    background: transparent;
+    box-shadow: none;
+}
+.set_success,
+.set_error{
+    position: absolute;
+    left: 12px;
+    bottom: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #A0CE4E;
+    color: #fff;
+    padding: 0 6px;
+}
+.lumise_content .lumise_shares .lumise-item-action{
+    color: #E7505A !important;
+}
+.lumise_content .lumise_shares .lumise-item-action:hover{
+    text-decoration: underline !important;
+}
+.set_error{
+    background-color: #E7505A;
+}
+.lumise_wrap_table {
+    float: left;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.lumise_wrap_table::-webkit-scrollbar {
+    height: 7px;
+}
+
+#lumise-popup #lumise-base-images::-webkit-scrollbar,
+.lumise_mobile .lumise_menu::-webkit-scrollbar,
+#lumise-popup div.lumise-langs-wrp::-webkit-scrollbar{
+    width: 7px;
+}
+
+#lumise-popup #lumise-base-images::-webkit-scrollbar-thumb,
+.lumise_mobile .lumise_menu::-webkit-scrollbar-thumb,
+#lumise-popup div.lumise-langs-wrp::-webkit-scrollbar-thumb {
+    background: #ababab;
+    border-radius: 8px;
+}
+
+.lumise_wrap_table::-webkit-scrollbar-thumb {
+    background: #ababab;
+    border-radius: 8px;
+}
+
+.lumise_content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.lumise_content a {
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+    color: #4DB6AC;
+}
+
+.lumise_content a.name{
+    font-weight: 500;
+}
+
+.lumise_content a:not(.add_new):hover {
+	opacity: 0.75;
+}
+.lumise_content .lumise_table .send_lumise{
+    background: #4DB6AC;
+    border-radius: 2px;
+    color: #fff !important;
+    padding: 4px 12px;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 26px;
+}
+.lumise_content a[data-edit-text] {
+    opacity: 0;
+    transition: opacity 250ms ease;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 2px;
+    text-transform: capitalize;
+}
+
+.lumise_content tr:hover a[data-edit-text] {
+    opacity: 1;
+}
+
+.lumise_content h1, .lumise_content h2, .lumise_content h3, .lumise_content h4, .lumise_content h5, .lumise_content h6 {
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.lumise_content h1 {
+    font-size: 40px;
+}
+
+.lumise_content h2 {
+    font-size: 26px;
+}
+
+.lumise_content h3 {
+    font-size: 18px;
+}
+
+.lumise_content h4 {
+    font-size: 14px;
+}
+
+.lumise_content h5 {
+    font-size: 12px;
+}
+
+.lumise_content h6 {
+    font-size: 10px;
+}
+
+/* Main Css */
+body {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    color: #393749;
+    line-height: 26px;
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+body .lumise_content p {
+    color: #7a7a7a;
+    margin: 0;
+}
+body .lumise_content p.lumise-notice {
+	background: #f9f9da;	
+}
+#lumise-primary-color, .lumise-field-color {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+
+#lumise-primary-color li, #lumise-primary-color input[type="color"], .lumise-field-color li, .lumise-field-color input[type="color"] {
+    float: left;
+    height: 35px;
+    width: 50px;
+    border-radius: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+#lumise-primary-color input[type="color"], .lumise-field-color input[type="color"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#lumise-primary-color li.choosed:after, .lumise-field-color:not(.unselection) li.choosed:after {
+    content: "\f00c";
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "FontAwesome" !important;
+    line-height: 20px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+#lumise-primary-color li i, .lumise-field-color li i {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    font-size: 10px;
+    background: red;
+    color: #fff;
+    height: 14px;
+    line-height: 12px;
+    width: 14px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 250ms ease;
+}
+
+#lumise-primary-color li:hover i, .lumise-field-color li:hover i {
+    opacity: 1;
+}
+
+.lumise_backtotop {
+    position: fixed;
+    z-index: 1000;
+    right: 20px;
+    bottom: 20px;
+    width: 36px;
+    border-radius: 50%;
+    height: 36px;
+    border: 2px solid #bbb;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_backtotop.show {
+    opacity: 1;
+}
+
+.lumise_backtotop i {
+    color: #bbb;
+    transition: all 0.3s ease 0s;
+    line-height: 30px;
+}
+
+.lumise_backtotop:hover {
+    background: #4DB6AC;
+    border-color: #4DB6AC;
+}
+
+.lumise_backtotop:hover i {
+    color: #fff;
+}
+
+.required {
+    color: #E7505A;
+    margin-left: 5px;
+}
+
+.lumise_wrapper {
+    float: left;
+    width: calc(100% - 240px);
+    padding: 20px;
+    transition: all 0.4s cubic-bezier(.35,0,.25,1);
+}
+.page_sidebar_mini .lumise_wrapper {
+    width: calc(100% - 50px);
+}
+
+.lumise_content {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 30px 20px;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.lumise_header {
+    float: left;
+    width: 100%;
+    padding: 0 0 12px;
+    border-bottom: 1px solid #edf1f5;
+    margin-bottom: 30px;
+}
+
+.lumise_header h2 {
+    float: left;
+    text-transform: capitalize;
+}
+
+.lumise_header .add_new {
+    float: left;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 3px 11px 1px;
+    color: #686868;
+    margin-left: 10px;
+}
+
+.lumise_header .add_new:hover {
+    background: #4DB6AC;
+    color: #fff !important;
+    border-color: #4DB6AC;
+}
+
+.lumise_breadcrumb {
+    float: right;
+    margin: 7px 0 0;
+}
+
+.lumise_breadcrumb li {
+    float: left;
+}
+
+.lumise_breadcrumb li a {
+    display: block;
+    color: #999;
+    font-weight: 400;
+    position: relative;
+    padding-right: 8px;
+    margin-right: 8px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.lumise_breadcrumb li a:before {
+    content: '/';
+    position: absolute;
+    right: -3px;
+    top: 0;
+}
+
+.lumise_breadcrumb li a:hover {
+    color: #333;
+}
+
+.lumise_breadcrumb li span {
+    display: block;
+    color: #4DB6AC;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.lumise_message {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #468847;
+    background: #DFF0D8;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: 1px solid #8c8c8c29;
+}
+
+.lumise_message.err {
+    background: #FDEAEA;
+    color: #E7505A;
+}
+
+.lumise_message.noti {
+    background: #f9f5d5;
+    color: #53585a;
+}
+
+.lumise_message em {
+    font-style: normal;
+}
+em.lumise_err{
+    display: block;
+}
+
+.lumise_option {
+    float: left;
+    width: 100%;
+    padding: 12px 0 16px;
+    padding-top: 0px;
+}
+
+.lumise_option .left form {
+    float: left;
+    margin-right: 24px;
+}
+
+.lumise_option .left form.less {
+    margin-right: 5px;
+}
+
+.lumise_option .left form select {
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 2px;
+    padding: 0 4px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.lumise_option .right .search {
+    float: left;
+    margin-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
+    padding: 0 8px;
+    font-weight: 400;
+}
+
+.lumise_submit {
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    padding: 0px 14px;
+    border-radius: 3px;
+    font-size: 13px !important;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    background: #eee;
+    letter-spacing: 0.3px;
+    color: #505050;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_submit:hover {
+    background: #4DB6AC;
+    color: #fff;
+}
+
+/* table style */
+.lumise_content table,
+.lumise_container table {
+    float: left;
+    background: #fff;
+    width: 100%;
+    text-align: left;
+    border-collapse: inherit;
+    border: 1px solid #e0e0e0;
+    border-spacing: 0;
+}
+
+.lumise_content table thead th,
+.lumise_container table thead th {
+    color: #393749;
+    padding: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    border-left: 1px solid #e0e0e0;
+    padding: 10px;
+    background: #eee;
+    font-size: 14px;
+}
+.lumise_content table thead th:first-child,
+.lumise_container table thead th:first-child {
+    text-align: center;
+    width: 0;
+    border-left: none;
+}
+
+.lumise_content table thead th select,
+.lumise_container table thead th select {
+    height: 30px;
+    width: 80px;
+}
+
+.lumise_content table thead tr,
+.lumise_container table thead tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.lumise_content table tbody tr,
+.lumise_container table tbody tr {
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_content table tbody td,
+.lumise_container table tbody td, .lumise_content table tfoot td {
+    color: #777;
+    padding: 10px;
+    vertical-align: middle;
+    border-left: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.lumise_content table tfoot.no-border td, .lumise_content table.lumise_order_details tbody td, .lumise_content table.lumise_order_details thead th  {
+    border-left: none;
+}
+
+.lumise_content table tbody td ul li {
+    display: inline-block;
+}
+
+.lumise_content table tbody td .lumise-thumbn, .lumise_content table tbody td svg {
+    max-height: 80px;
+}
+
+.lumise_content table tbody td:first-child,
+.lumise_container table tbody td:first-child {
+    padding: 12px 10px;
+    text-align: center;
+    min-width: 40px;
+    border-left: none;
+}
+
+.lumise_content .lumise_wrap_table table tbody td:first-child,
+.lumise_content table tbody td.lumise_check{
+    min-width: 60px;
+}
+
+.lumise_content table tbody td.lumise_check{
+    width: 70px;
+}
+
+.lumise_content table tbody td:last-child,
+.lumise_container table tbody td:last-child {
+    min-width: 40px;
+}
+.lumise_content table tbody tr:nth-child(2n) td {
+    background: #fafafa;
+}
+
+.lumise_content table tbody td .name,
+.lumise_content table tbody td .lumise_action_duplicate{
+    float: left;
+}
+
+.lumise_content table tbody td .lumise_action_duplicate{
+    clear: both;
+    opacity: 0;
+    visibility: hidden;
+    color: #777 !important;
+}
+
+.lumise_content table tbody tr:hover .lumise_action_duplicate{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lumise_content table tbody tr td .lumise_action_duplicate:hover{
+    text-decoration: underline;
+}
+.lumise_content table tbody td .lumise_action_duplicate[data-working="true"]{
+    color: #fff !important;
+}
+.lumise_content table tbody td .lumise_action_duplicate[data-working="true"]:before{
+    content: "\f110";
+    display: inline-block;
+    font: normal normal normal 15px/1 FontAwesome;
+    color: #5f5f5f !important;
+    animation: fa-spin 2s infinite linear;
+}
+.name:hover {
+    text-decoration: underline;
+}
+.lumise_checkboxes{
+    float: left;
+    width: 100%;
+}
+.lumise_checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.lumise_checkbox.sty2 {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.lumise_checkbox input {
+    display: none;
+}
+
+.lumise_checkbox label {
+    float: left;
+    padding-left: 26px;
+    cursor: pointer;
+    position: relative;
+}
+.lumise_checkboxes .lumise_checkbox label {
+    cursor: move;
+}
+.lumise_checkbox .check {
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 2px solid rgba(0,0,0,.3);
+    border-radius: 2px;
+    font-style: normal;
+}
+
+.lumise_checkbox.sty2 .check {
+    height: 18px;
+    width: 18px;
+    margin-top: 3px;
+}
+
+.lumise_checkbox .check:before {
+    content: '\f00c';
+    position: absolute;
+    font-weight: normal;
+    top: 1px;
+    left: 2px;
+    line-height: 13px;
+    font-family: FontAwesome;
+    color: #505050;
+    font-size: 11px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_checkbox.sty2 .check:before {
+    line-height: 13px;
+    font-size: 12px;
+    left: 1px;
+}
+
+.lumise_checkbox input:checked ~ label .check:before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.pub {
+    padding: 0px 6px;
+    float: left;
+    color: #fff;
+    background: #A0CE4E;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    font-style: inherit;
+    border-radius: 2px;
+    line-height: 26px;
+}
+
+.pub.pen{
+    background: #e8d149;
+}
+.new.pub{
+    background: #2196f3;
+}
+.pub.un {
+    background: #E7505A;
+}
+.lumise_orders .lumise-order-action[data-func="delete"] {
+    color: #E7505A !important;
+}
+.lumise_featured a i {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.lumise_featured a i.none {
+    color: #999;
+}
+
+.lumise_action a {
+    float: left;
+    padding: 1px 12px;
+    border-radius: 2px;
+    font-weight: 300;
+    color: #393749;
+    background: #eee;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.lumise_action a:hover {
+    background: #4DB6AC;
+    color: #fff;
+}
+
+.lumise_action a i {
+    margin-right: 4px;
+}
+
+.lumise_action form {
+    float: left;
+    position: relative;
+    background: #eee;
+    border-radius: 2px;
+}
+
+.lumise_action form i {
+    float: left;
+    line-height: 26px;
+    padding-left: 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_action form input {
+    float: left;
+    padding: 0px 12px 0 4px;
+    line-height: 28px;
+    height: 28px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 13px;
+    border-radius: 2px;
+    color: #393749;
+    background: transparent;
+    border: 0;
+}
+
+.lumise_action form:hover {
+    background: #E7505A;
+    color: #fff;
+}
+
+.lumise_action form:hover input {
+    color: #fff;
+}
+
+/* form style */
+.lumise_form {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.lumise_form_settings {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.lumise_form_settings .lumise_form_group input[type="submit"] {
+    margin: 20px 0 0;
+}
+
+.lumise_form_group {
+    float: left;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.lumise_form_group.lumise_field_print{
+    margin-bottom: 10px;
+}
+.lumise-stage-settings, .lumise-stage-body{
+    position: relative;
+    float: left;
+}
+.lumise-stage-body{
+	text-align: center;
+    width: 100%;
+}
+.lumise-stage-body .toggle{
+	float: none;
+}
+.lumise-stage-body .toggle+label{
+	position: relative;
+    top: -8px;
+    margin-left: 5px;
+}
+.lumise-stage-design-view{
+	display: inline-block;
+	position: relative;
+	margin: 10px auto 0;
+	min-width: 150px;
+}
+.lumise-stage-settings .lumise-stage-btn {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    margin: 0px;
+    white-space: nowrap;
+    width: 100%;
+    transform: translateY(100%);
+    padding: 11px 0 10px;
+    background: #f3f3f3;
+}
+#lumise_template{
+    position: relative;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#lumise_template a[href="#delete"]{
+	color: #ee7474;
+	font-size: 20px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#lumise_template a[href="#delete"]:hover{
+	color: #ac3737;	
+}
+.lumise-stage-settings.stage-disabled .lumise-stage-body {
+    background: transparent !important;
+}
+
+.lumise-stage-settings .lumise-stage-btn button {
+    float: none !important;
+}
+
+.lumise-stage-settings.stage-disabled .lumise-stage-btn {
+    bottom: 10px;
+}
+.lumise-stage-btn button[data-delete-base]{
+    color:#f12929;
+}
+.lumise-stage-settings.stage-disabled .lumise-stage-btn button[data-delete-base],
+.lumise-stage-settings .lumise-stage-btn button[data-revert-base] {
+    display: none;
+}
+.lumise-stage-settings .lumise-stage-btn button:hover {
+    box-shadow: none;
+    background: #333;
+    color: #eee;
+}
+.lumise-stage-settings {
+    width: 100%;
+    user-select: none;
+    margin-bottom: 80px;
+}
+
+.lumise-stage-settings img.lumise-stage-image {
+    float: left;
+    max-width: 400px;
+    border: 1px solid rgb(255, 124, 124);
+}
+.lumise-stage-settings.stage-disabled img {
+	display: none;
+}
+.lumise-stage-settings img[data-svg="1"] {
+	width: 400px;	
+}
+.lumise-stage-body .lumise-stage-editzone {
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    width: 175px;
+    height: 280px;
+    border: 1px dashed #ccc;
+    user-select: none;
+    color: #bbb;
+}
+.lumise-stage-body .lumise-stage-design-view [data-func]{
+    display: none;
+}
+.lumise-stage-body .lumise-stage-design-view:hover [data-func]{
+    display: block;
+}
+.lumise-stage-body .lumise-stage-design-view input[type="range"][data-func]{
+    position: absolute;
+    top: calc(100% - 24px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.lumise-stage-body .lumise-stage-design-view input[type="range"] {
+    -webkit-appearance: none;
+    margin: 2px 0;
+    width: 100%;
+    height: 22px;
+    background: transparent;
+}
+
+.lumise-stage-body .lumise-stage-design-view input[type=range]:focus {
+    outline: none;
+}
+
+.lumise-stage-body .lumise-stage-design-view input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #d4d4d4;
+    position: relative;
+    border-radius: 3px;
+}
+
+.lumise-stage-body .lumise-stage-design-view input[type=range]::-webkit-slider-thumb {
+    border: 1px solid #fff;
+    height: 14px;
+    width: 14px;
+    border-radius: 15px;
+    background: #3fc7ba;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6px;
+    transition: all 150ms ease;
+}
+
+.lumise-stage-body .lumise-stage-design-view input[type=range]::-webkit-slider-thumb:hover {
+    height: 18px;
+    width: 18px;
+    margin-top: -8px;
+}
+
+.lumise-stage-body .lumise-stage-editzone button{
+    border: none;
+    background: #555;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 0px;
+    cursor: pointer;
+    float: left;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    outline: none;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.lumise-stage-body .lumise-stage-editzone button[data-label]:after{
+    content: attr(data-label);
+    position: absolute;
+    top: calc(-100% - 3px);
+    background: rgb(85, 85, 85);
+    padding: 3px 8px;
+    font-size: 13px;
+    color: #f3f3f3;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    display: none;
+}
+.lumise-stage-body .lumise-stage-editzone button[data-label]:before{
+    content: "";
+    position: absolute;
+    top: -26%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top: 5px solid rgb(85, 85, 85);
+    display: none;
+}
+.lumise-stage-body .lumise-stage-editzone button[data-label]:hover:before,
+.lumise-stage-body .lumise-stage-editzone button[data-label]:hover:after{
+    display: block;
+}
+.lumise-stage-body .lumise-stage-editzone button[data-func="move"]{
+    cursor: move;
+}
+.lumise-stage-body .lumise-stage-editzone button:last-child{
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+.lumise-stage-body .lumise-stage-editzone button:hover{
+    background: #333;
+}
+.lumise-stage-body .lumise-stage-editzone button.design-template-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    white-space: nowrap;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,.25);
+    padding: 6px 12px;
+    background: #dcdcdc;
+    color: #505050;
+}
+.lumise-stage-body .lumise-stage-editzone button.design-template-btn:hover{
+    background: #333;
+    color: #eee;
+    border-color: transparent;  
+}
+.lumise-stage-settings.stage-disabled .lumise-stage-body .lumise-stage-editzone,
+.lumise-stage-settings.stage-disabled .lumise-stage-body .editzone-ranges {
+    display: none;
+}
+
+#lumise-stages-wrp .lumise-stage-body .lumise-stage-editzone div.editzone-funcs {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+    opacity: 1;
+    text-align: right;
+    padding: 0px;
+    line-height: 22px;
+    color: #fff;
+    white-space: nowrap;
+    display: flex;
+}
+
+.lumise-stage-body .lumise-stage-editzone .editzone-funcs small {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.lumise-stage-body .lumise-stage-editzone .design-template-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    user-select: none;
+    z-index: 0;
+    cursor: move;
+    overflow: hidden;
+}
+.lumise-stage-body .lumise-stage-editzone .design-template-inner:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.lumise-stage-body .lumise-stage-editzone .design-template-inner img{
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.lumise-stage-body .lumise-stage-editzone>i[data-func="resize"] {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    transform: rotate(90deg);
+    color: #fff;
+    cursor: nwse-resize;
+    background: rgb(85, 85, 85);
+    padding: 5px;
+    border-radius: 2px;
+    z-index: 10;
+}
+.lumise-stage-body .lumise-stage-editzone>i[data-func="resize"][data-info]:after {
+    content: attr(data-info);
+    position: absolute;
+    top: -83%;
+    left: -15%;
+    background: #ccc;
+    padding: 2px 5px;
+    transform: rotate(-90deg);
+    font-family: arial;
+    font-size: 13px;
+    color: #333;
+    border-radius: 1px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+.lumise-stage-body .lumise-stage-editzone>i[data-func="resize"]:hover {
+    background: #000;
+}
+.lumise-stage-body .lumise-stage-design-view .editzone-ranges{
+    background: #f3f3f3;
+    text-align: left;
+    display: block;
+    min-width: 150px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.lumise-stage-body .lumise-stage-design-view .editzone-ranges .edr-row{
+    display: block;
+    text-align: right;
+    clear: both;
+    line-height: 30px;
+    border-top: 1px dotted rgba(0, 0, 0, 0.085);
+}
+.lumise-stage-body .lumise-stage-design-view .editzone-ranges .edr-row label{
+    min-width: 135px;
+    display: inline-block;
+    padding: 8px 10px;
+    text-align: right;
+    float: left;
+    font-weight: 500;
+}
+.lumise-stage-body .lumise-stage-design-view .editzone-ranges .edr-row input{
+    display: inline-block;
+    width: calc(100% - 160px);
+    margin-top: 14px;
+    margin-right: 20px;
+}
+#lumise-popup #lumise-base-images {
+    display: inline-block;
+    width: 100%;
+    max-height: calc(80vh - 107px);
+    overflow: auto;
+}
+#lumise-popup #lumise-base-images .lumise-stagle-list-base {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    background: #eaeaea;
+    overflow: initial;
+    max-height: initial;
+}
+
+#lumise-popup .lumise-popup-content ul.lumise-stagle-list-base li {
+    text-align: center;
+    margin: 0 1.5% 1.5% 0;
+    position: relative;
+    z-index: 1;
+    width: 15.41%;
+    background: #fff;
+    padding: 0px;
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,.1);
+    border-radius: 3px;
+    height: 240px;
+    padding-top: 206px;
+}
+
+#lumise-popup .lumise-popup-content ul.lumise-stagle-list-base li:hover span {
+    background: #888;
+    color: #eee;
+}
+
+#lumise-popup .lumise-popup-content ul.lumise-stagle-list-base li:hover {
+    text-decoration: none;
+}
+
+#lumise-popup .lumise-popup-content ul.lumise-stagle-list-base li:nth-child(6n) {
+    margin-right: 0;
+}
+
+#lumise-popup .lumise-stagle-list-base li img {
+    max-width: 100%;
+    display: inline-block;
+    clear: both;
+    float: none;
+    transition: all 250ms ease;
+    border-top-left-radius: 5px;
+    float: left;
+    margin: 0px;
+    border-top-right-radius: 5px;
+    border: 10px solid #fff;
+    max-height: 200px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: calc(50% - 20px);
+    background: #efefef;
+}
+
+#lumise-popup .lumise-popup-content ul.lumise-stagle-list-base li:hover img {
+    background-color: #4DB6AC;
+}
+
+#lumise-popup .lumise-stagle-list-base li span {
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #3a3a3a;
+    letter-spacing: .5px;
+    background: #eee;
+    border-bottom-left-radius: 3px;
+    padding: 0px 10px;
+    border-bottom-right-radius: 3px;
+    position: relative;
+    z-index: 3;
+}
+
+.lumise_form_submit {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.lumise_form_submit .lumise_cancel {
+    margin-left: 20px;
+    height: 35px;
+    border: none;
+    background: #eee;
+    padding: 0 25px;
+    color: #555;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.lumise_form_submit .lumise_cancel:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.lumise_form_settings .lumise_form_group span {
+    text-align: left;
+}
+#lumise-stages-wrp .lumise-stage-body .lumise-stage-editzone div.editzone-gui {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .25px;
+    opacity: 0.5;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    height: 100%;
+    cursor: move;
+}
+.lumise-stage-body .lumise-stage-editzone div.editzone-gui strong {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 24px;
+    position: relative;
+}
+.lumise-stage-body .lumise-stage-editzone div.editzone-gui small {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.lumise_form_group span {
+    float: left;
+    width: 180px;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 34px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.lumise_form_group .lumise_form_content {
+    float: left;
+    max-width: 500px;
+    width: 100%;
+}
+.lumise_form_group .stage-disabled .lumise_form_content{
+	display: none;
+}
+.lumise_form_group.lumise_field_tabs .lumise_form_content {
+	max-width: 650px;
+}
+.lumise_form_group.lumise_field_print .lumise_form_content{
+	max-width: calc(90% - 180px);
+}
+.lumise_form_group.lumise_field_print .lumise_radio_content:not(.lumise-open),
+.lumise_form_group.lumise_field_print [data-multi="no"] .lumise_tab_nav{
+	display: none;
+}
+.lumise_form_group.lumise_field_print .lumise_tabs{
+	padding: 20px;
+}
+.lumise_form_group.lumise_field_print [data-multi="no"] .lumise_tabs{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+.lumise_form_group.lumise_field_print .lumise_radios{
+	margin-bottom: 10px;
+}
+.lumise_form_group.lumise_field_print thead td{
+    text-align: center;
+    padding: 8px 0;
+    font-weight: bold;
+    border-left: 1px solid #eaeaea;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.lumise_form_group.lumise_field_print thead td:first-child{
+	border-left: 0;
+}
+.lumise_form_group.lumise_field_print tbody td{
+    text-align: center;
+    min-width: 100px;
+}
+.lumise_form_group.lumise_field_print tbody td input{
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 34px;
+    padding: 0 10px;
+    border-radius: 2px;
+}
+.lumise_content a[data-func] {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 14px;
+    border-right: 1px solid #ccc;
+    padding-right: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.lumise_content a[data-func="reduce_column"]{
+    color: #ca4a1f;
+}
+.lumise_content a[data-func]:last-child {
+    border: none;
+    margin-right: 0px;
+    padding: 0px;
+}
+.lumise_form_group.lumise_field_print tbody td i[data-func="delete_row"] {
+	cursor: pointer;
+}
+.lumise_form_group.lumise_field_print tbody td i[data-func="delete_row"]:hover {
+	color: red;
+}
+.lumise_form_group.lumise_field_print .lumise_radios em.notice{
+	padding: 0;
+}
+.lumise_form_group.lumise_field_print [data-view="multi"] {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #ccc;
+}
+.lumise_form_group.lumise_field_print [data-view="multi"] em.notice{
+    margin: 0px 0 0 10px;
+    display: inline-block;
+    width: initial;
+}
+#lumise-tab-attributes .lumise_form_group hr{
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 24px 0;
+}
+#lumise-tab-attributes .lumise_form_group .lumise_form_group.lumise_field_input{
+    display: flex;
+}
+#lumise-tab-attributes .lumise_form_group .lumise_form_content {
+    max-width: 800px;
+}
+
+.lumise_form_group .lumise_form_content input[type="color"] {
+    width: 270px;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.lumise_form_group .lumise_form_content button[data-func="create-color"]{
+    height: 34px;
+    border: none;
+    font-size: 14px;
+    padding: 0 14px;
+    border-radius: 3px;
+    min-width: 130px;
+    background: #4db6ac;
+    color: #fff;
+    cursor: pointer;
+    transition: all 250ms ease;
+    float: left;
+    margin-right: 10px;
+}
+
+.lumise_form_group .lumise_form_content button[data-func="create-color"]:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.lumise_tab_content .lumise-product-design {
+    float: left;
+    width: 100%;
+}
+
+#lumise-stages-wrp {
+    display: inline-block;
+    margin-bottom: 14px;
+    width: auto;
+}
+
+#lumise-stages-wrp .lumise_tab_nav, 
+#lumise-stages-wrp .lumise_tabs, 
+#lumise-stages-wrp .lumise_tab_content, 
+#lumise-stages-wrp .lumise_tab_content .lumise-product-design {
+    width: auto;
+    clear: both;
+    min-width: 500px;
+}
+.lumise_field_stages .lumise_tabs{
+	padding: 10px 0 0 0;
+}
+#lumise_shape_preview svg {
+    height: 100px;
+}
+.lumise_form_group a.tip{
+	position: relative;
+}
+.lumise_form_group a.tip span{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    background: rgba(51, 51, 51, 0.9);
+    color: #eee;
+    font-weight: normal;
+    padding: 8px 12px;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;
+    min-width: 300px;
+    display: none;
+}
+.lumise_form_group a.tip:hover span{
+	display: block;
+}
+.lumise_form_group a.tip span:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid rgba(51, 51, 51, 0.9);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lumise_form_content {
+    position: relative;
+    z-index: 99;
+}
+
+.lumise_add_cate {
+    margin-top: 10px;
+    line-height: 16px;
+    float: left;
+}
+
+.lumise_add_cate:hover {
+    text-decoration: underline;
+}
+
+.lumise_form_content .unit {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 6px;
+    line-height: 34px;
+    font-size: 12px;
+    color: #999;
+    font-style: normal;
+}
+
+.lumise_form_content .unit.sty2 {
+    float: left;
+    position: static;
+    font-size: 14px;
+    margin: 0 7px;
+    font-weight: 500;
+}
+
+.thumb_clipart .lumise_checkbox.sty2 {
+    width: auto;
+    line-height: 34px;
+    margin-left: 8px;
+}
+
+.thumb_clipart .lumise_checkbox.sty2 .check {
+    margin-top: 8px;
+}
+
+.lumise_form_content p {
+    float: left;
+    width: 100%;
+    line-height: 34px;
+}
+
+.lumise_form_content .no-data {
+    width: auto;
+}
+
+.lumise_form_content .add-new {
+    float: left;
+    line-height: 34px;
+    margin-left: 8px;
+    font-weight: 500;
+}
+.lumise_form_group .no-data{
+    padding: 0;
+    font-size: 14px;
+}
+
+.lumise_form_content .add-new:hover {
+    text-decoration: underline;
+}
+
+.lumise_form_group .img-preview {
+    float: left;
+    width: 100%;
+}
+
+.lumise_form_group .img-preview img {
+    padding: 5px;
+    border: 1px solid #ddd;
+    float: left;
+    max-width: 100%;
+    margin-bottom: 10px;
+    background: #eee;
+}
+
+.lumise_form_group .img-preview input[type="file"] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.lumise_form_group .img-preview #remove_file {
+    width: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lumise_form_group .img-preview input[type="submit"], .lumise_form_group .img-preview #remove_file {
+    margin: 0;
+    padding: 4px 20px;
+    background: #eee;
+    font-weight: 400;
+    border-radius: 1px;
+    background: #E7505A;
+    text-transform: capitalize;
+    margin-left: 10px;
+    line-height: 26px;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_form_group .img-preview label {
+    clear: both;
+    cursor: pointer;
+    float: left;
+    padding: 4px 20px;
+    background: #4DB6AC;
+    color: #fff;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+}
+
+.lumise_form_group .img-preview label:hover, .lumise_form_group .img-preview input[type="submit"]:hover, .lumise_form_group .img-preview #remove_file:hover, .lumise_content input[type="button"]:hover, .lumise_content button[data-btn]:hover {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.lumise_form_group select {
+    float: left;
+    width: 100%;
+    padding: 0 8px;
+    height: 34px;
+    line-height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+    color: #666;
+}
+
+.lumise_form_group textarea {
+    float: left;
+    width: 100%;
+    padding: 8px;
+    height: 130px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_form_group input[type="text"],
+.lumise_form_group input[type="password"] {
+    float: left;
+    max-width: 450px;
+    padding: 0 8px;
+    height: 34px;
+    line-height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    transition: box-shadow 0.3s ease 0s;
+    width: 100%;
+}
+
+.lumise_form_group .thumb_size {
+    width: 60px !important;
+}
+
+.lumise_form_group input[type="number"] {
+    float: left;
+    width: 135px;
+    padding: 0 8px;
+    height: 34px;
+    line-height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_form_group input:not([type="file"]):focus, .lumise_form_group select:hover, .lumise_form_group select:focus, .lumise_form_group textarea:hover, .lumise_form_group textarea:focus {
+    box-shadow: 0 0 4px rgba(0,0,0,0.15);
+}
+
+.lumise_form_group input[type="submit"], .lumise_form_group .lumise-btn-primary {
+    float: left;
+    padding: 11px 24px;
+    background: #4DB6AC;
+    border: 0;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_form_group.lumise_form_submit input[type="submit"] {
+    margin-left: 180px;
+}
+
+.lumise_form_group input[type="submit"]:hover, .lumise_form_group .lumise-btn-primary:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.lumise_form_group .lumise-field-attributes>header {
+    display: inline-block;
+    width: 100%;
+    user-select: none;
+}
+
+.lumise_form_group .lumise-field-attributes>header button {
+    margin: 0pc;
+}
+
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body {
+    display: inline-block;
+    width: 100%;
+}
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body > .lumise-attribute{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body  .less.qty,
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body  .less.pack,
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body .lumise-attribute[data-type="pack"] .less.price{
+    display: none;
+}
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body > .lumise-attribute[data-type="size"] .less.qty,
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body .lumise-attribute[data-type="pack"] .less.pack{
+    display: table-cell;
+}
+.lumise_form_group .lumise-field-attributes>.lumise-field-attributes-body > .lumise-attribute[data-expand="true"] i[data-func="toggle"]:before{
+    content: "\f0d8";
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header {
+    background: #eee;
+    border: 1px solid #ddd;
+    padding: 12px 18px;
+    float: left;
+    width: 100%;
+    cursor: move;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header:hover {
+    background: #e4e4e4;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header>i {
+    font-size: 18px;
+    color: #666;
+    float: left;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header>i:hover {
+    color: #1a1a1a;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header>i[data-func="toggle"]{
+    color: #aaa;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header>i[data-func="toggle"]:hover{
+    color: #555;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header>span[data-func="title"] {
+    float: left;
+    line-height: 18px;
+    margin-left: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #555;
+    font-size: 15px;
+    width: auto;
+    max-width: calc(100% - 100px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header>i[data-func="trash"] {
+    float: right;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body {
+    padding: 18px;
+    border: 1px solid #ddd;
+    float: left;
+    width: 100%;
+    border-top: none;
+    background: #fff;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-tmpl {
+    display: none;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body div[data-view="col"] {
+    float: left;
+    width: 42%;
+    padding-right: 18px;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body div[data-view="col"].last {
+    width: 14%;
+    text-align: center;
+    padding: 0px;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body div[data-view="col"].last .toggle {
+    float: none;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body div[data-view="col"] strong {
+    display: block;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: .3px;
+    font-size: 14px;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body div[data-view="col"] strong em {
+    color: red;
+    font-style: inherit;
+}
+
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body .lumise-attribute-options {
+    float: left;
+    width: 100%;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body .lumise-attribute-options table{
+    margin-top: 20px;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body .lumise-attribute-options tr{
+    transition: none;
+    width: 100%;
+    position: relative;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body .lumise-attribute-options td {
+    background: #f3f3f3;
+    border-color: #e0e0e0;
+    height: 60px;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body .lumise-attribute-options td.less {
+    width: 120px;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute-body .lumise-attribute-options tfoot td {
+    border-left: none;
+}
+.lumise_form_group .lumise-field-attributes table tbody td:last-child {
+    text-align: center;
+}
+
+.lumise_form_group .lumise-field-attributes table tbody td i[data-func] {
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 250ms ease;
+}
+.lumise_form_group .lumise-field-attributes table tbody td i[data-func="drag"] {
+    cursor: move;
+}
+.lumise_form_group .lumise-field-attributes table tbody td i[data-func]:hover {
+    color: #333;
+}
+
+.lumise_form_group .lumise-field-attributes table tfoot td {
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.upload {
+    float: left;
+    width: 100%;
+}
+
+.list-cate {
+    float: left;
+    width: 100%;
+    max-height: 270px;
+    padding: 5px 10px !important;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.list-cate ul {
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.list-cate li {
+    float: left;
+    width: 100%;
+    padding: 3px 0;
+}
+
+.list-cate .lumise_checkbox {
+    float: left;
+}
+
+.list-cate li p {
+    float: left;
+    width: auto;
+    line-height: 26px;
+    margin: 0;
+    padding-left: 6px;
+    color: #393749;
+}
+
+.list-tag {
+    float: left;
+    width: 100%;
+}
+
+.list-tag input {
+    margin-right: 8px;
+    width: 100% !important;
+}
+
+.notice {
+    margin-top: 8px;
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    font-style: italic;
+    color: #999;
+    line-height: 16px;
+    box-shadow: none;
+    padding: 10px 0 0;
+    margin: 0px;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+    top: 2px;
+}
+
+.toggle input {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.toggle .toggle-label {
+    float: left;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 34px;
+    transition: .3s;
+    padding: 0;
+}
+
+.toggle .toggle-label:before {
+    content: attr(data-off);
+    position: absolute;
+    right: 10px;
+    color: grey;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    line-height: 32px;
+    width: 30px;
+}
+
+.toggle .toggle-label:after {
+    content: attr(data-on);
+    position: absolute;
+    left: 11px;
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    line-height: 32px;
+    width: 30px;
+}
+
+.toggle .toggle-handle {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.toggle input:checked ~ .toggle-label:before {
+    opacity: 0;
+}
+
+.toggle input:checked ~ .toggle-label:after {
+    opacity: 1;
+}
+
+.toggle input:checked ~ .toggle-handle {
+    left: 43px;
+}
+
+.toggle input:checked ~ .toggle-label {
+    background: #4DB6AC;
+}
+.field_children {
+    margin-left: 26px;
+    position: relative;
+}
+.field_children:after {
+    position: absolute;
+    top: -3px;
+    left: -17px;
+    content: "";
+    width: 12px;
+    height: 20px;
+    border-left: 1px dotted #b2b2b2;
+    border-bottom: 1px dotted #b2b2b2;
+}
+.lumise_radios {
+    float: left;
+    width: 100%;
+}
+
+.lumise_radios .radio {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.lumise_radios.display_inline .radio {
+    width: auto;
+    margin-right: 14px;
+}
+.lumise_radios .radio input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.lumise_radios .radio label {
+    float: left;
+    line-height: 34px;
+    padding-left: 26px;
+    cursor: pointer;
+}
+
+.lumise_radios .radio .check {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 7px;
+    border: 2px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_radios .radio .check:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 3px;
+    top: 3px;
+    border-radius: 50%;
+    background: #505050;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_radios .radio input:checked ~ label .check:before {
+    transform: scale(1);
+    background: #4DB6AC;
+}
+
+.lumise_radios .radio input:checked ~ label .check {
+    border-color: #4DB6AC;
+}
+
+.lumise_radios .radio em {
+    margin-top: 0px;
+    line-height: 18px;
+}
+
+/* Auto Complete Tag */
+.ui-autocomplete-multiselect.ui-state-default {
+    display: block;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 3px 3px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    cursor: text;
+    float: left;
+    width: 100% !important;
+}
+
+.ui-autocomplete-multiselect .ui-autocomplete-multiselect-item .ui-icon {
+    float: right;
+    cursor: pointer;
+}
+
+.ui-autocomplete-multiselect .ui-autocomplete-multiselect-item {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+    color: #333;
+    background-color: #f6f6f6;
+}
+
+.ui-autocomplete-multiselect input {
+    display: inline-block;
+    border: none;
+    outline: none;
+    height: auto;
+    margin: 2px;
+    overflow: visible;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100% !important;
+}
+
+.ui-autocomplete-multiselect.ui-state-active {
+    outline: none;
+    border: 1px solid #7ea4c7;
+    -moz-box-shadow: 0 0 5px rgba(50,150,255,0.5);
+    -webkit-box-shadow: 0 0 5px rgba(50,150,255,0.5);
+    -khtml-box-shadow: 0 0 5px rgba(50,150,255,0.5);
+    box-shadow: 0 0 5px rgba(50,150,255,0.5);
+}
+
+.ui-autocomplete {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-top: -2px;
+    box-shadow: none;
+}
+
+.ui-autocomplete .ui-menu-item {
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+.ui-autocomplete .ui-menu-item:hover {
+    background: #ddd;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+/* Currency Select */
+.lumise-combobox {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.lumise-combobox-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 34px;
+    height: 34px;
+    background: #ddd;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+.lumise-combobox-toggle:before {
+    content: '\f0d7';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: FontAwesome;
+    line-height: 34px;
+    font-size: 14px;
+    color: #505050;
+}
+
+.lumise-combobox-toggle:focus {
+    outline: none;
+}
+
+.lumise-combobox-input {
+    float: left;
+    width: 100%;
+    padding: 0 8px;
+    height: 34px;
+    line-height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+/* Pagination */
+.lumise_pagination {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.lumise_pagination ul {
+    float: right;
+    background: #fff;
+}
+
+.lumise_pagination ul li {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.lumise_pagination ul li a, .lumise_pagination ul li span{
+    display: block;
+    width: 35px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #e4e9f0;
+    margin-left: -1px;
+    color: #74708d;
+}
+.lumise_pagination ul li a i, .lumise_pagination ul li span i{
+    display: block;
+    line-height: 32px;
+}
+.lumise_pagination ul li a:hover {
+    background: #f6f6f6;
+}
+
+.lumise_pagination ul li span {
+    background: #4DB6AC;
+    color: #fff;
+    border-color: #4DB6AC;
+}
+
+.lumise_pagination ul li span.none {
+    cursor: not-allowed;
+    background: #fff;
+    border-color: #e4e9f0;
+    color: #74708d;
+}
+
+.lumise_pagination ul li:last-child > span, .lumise_pagination ul li:last-child > a {
+    border-right: 1px solid #e4e9f0;
+    border-radius: 0 2px 2px 0;
+}
+
+.lumise_pagination ul li:first-child > span, .lumise_pagination ul li:first-child > a {
+    border-radius: 2px 0 0 2px;
+}
+
+.lumise_pagination p {
+    margin: 0;
+    float: left;
+}
+
+.lumise_wrapper .btn-back {
+    float: left;
+    margin-top: 8px;
+    padding: 4px 18px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #fff;
+    background: #4DB6AC;
+    border-radius: 2px;
+}
+
+.lumise_wrapper .btn-back:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.no-data {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+.lumise_wrapper .btn-back i {
+    margin-right: 4px;
+}
+
+/* Main Menu */
+.lumise_sidebar {
+    float: left;
+    width: 240px;
+    margin: 20px 0 0 0;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(.35,0,.25,1);
+}
+
+.lumise_sidebar.menu_icon {
+    width: 50px;
+}
+
+.menu_icon .btn-toggle-sidebar {
+    right: 8px;
+}
+
+.lumise_logo {
+    float: left;
+    width: 100%;
+    height: 83px;
+    background: #fff;
+    padding: 25px 0 18px;
+    position: relative;
+}
+
+.lumise_logo img {
+    max-height: 40px;
+    float: left;
+    padding-left: 15px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.2s;
+    transition: all 0.3s ease 0s;
+}
+
+.menu_icon .lumise_logo img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.btn-toggle-sidebar {
+    position: absolute;
+    top: 26px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 50%;
+    background: #eee;
+    cursor: pointer;
+    color: #505050;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+
+.btn-toggle-sidebar i{
+    display: block;
+    line-height: 34px;
+}
+
+.btn-toggle-sidebar:hover {
+    background: #4DB6AC;
+    color: #fff;
+}
+
+.lumise_sidebar .lumise_menu {
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+.lumise_sidebar ver{
+    background: #fafafa;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    color: #aaa;
+    border-top: 1px solid #fafafa;
+}
+.lumise_sidebar ver a{
+    text-decoration: none;
+    color: #bdc3c5;
+}
+.lumise_sidebar ver a:hover{
+    text-decoration: underline;
+}
+.lumise_sidebar.menu_icon ver span{
+    display: none;
+}
+.menu_icon .lumise_menu > li > a span {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease 0s;
+}
+
+.menu_icon .lumise_menu > li > a span {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu_icon.lumise_sidebar .lumise_menu > li > a:hover, .menu_icon.lumise_sidebar .lumise_menu > li > a:active {
+    background: #f5f5f5;
+}
+
+.lumise_sidebar ul {
+    float: left;
+    width: 100%;
+}
+
+.lumise_sidebar ul li a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.lumise_sidebar ul.lumise_sub_menu {
+    background: #f7f7f7;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: all 0.4s cubic-bezier(.35,0,.25,1);
+}
+
+.lumise_sidebar.menu_icon ul.lumise_sub_menu {
+    height: auto !important;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 240px;
+    display: none;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.06);
+    background: #f5f5f5;
+    z-index: 999;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.lumise_sidebar.menu_icon .lumise_menu li:hover ul.lumise_sub_menu {
+    display: block;
+    animation-duration: 0.5s;
+    animation-name: fadeInUp;
+    animation-fill-mode: forwards;
+}
+
+.lumise_sidebar ul.lumise_sub_menu.open {
+    height: initial;
+}
+
+.lumise_sidebar .lumise_sub_menu li a {
+    padding-left: 37px;
+    font-weight: 400;
+    color: #777;
+}
+
+.lumise_sidebar .lumise_sub_menu li a:hover {
+    background: #e4e4e4;
+    color: #898989;
+}
+
+.lumise_sidebar .lumise_sub_menu li a.active {
+    color: #4DB6AC;
+}
+.lumise_sidebar .lumise_sub_menu li a .update-notice{
+    margin: 5px 0 0 0;
+    padding: 0 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 11px;
+    background-color: #ca4a1f;
+    color: #fff;
+    font-size: 10px;
+    line-height: 17px;
+    text-align: center;
+    z-index: 26;
+    float: right;
+}
+.lumise_sidebar ul li {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.lumise_sidebar ul li .lumise_icon_dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 46px;
+    line-height: 46px;
+    width: 38px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: all 0.4s cubic-bezier(.35,0,.25,1);
+}
+
+.lumise_sidebar ul li .lumise_icon_dropdown i {
+    margin: 0;
+    font-size: 18px;
+    color: #999;
+    display: block;
+    line-height: 46px;
+}
+
+.lumise_sidebar ul li .lumise_icon_dropdown.open {
+    transform: rotate(180deg);
+}
+
+.lumise_sidebar ul li a {
+    display: block;
+    color: #272727;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.lumise_sidebar ul li a i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.33);
+}
+
+.lumise_sidebar ul li a:hover, .lumise_sidebar ul li a.active, .lumise_sidebar ul li a:hover i, .lumise_sidebar ul li a.active i {
+    color: #4DB6AC;
+}
+
+.lumise_sidebar ul.lumise_menu > li > a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 3px;
+    background: #4DB6AC;
+    transition: all 0.26s ease 0s;
+    display: inline-block;
+}
+
+.lumise_sidebar ul.lumise_menu > li > a:hover:before, .lumise_sidebar ul.lumise_menu > li > a.active:before {
+    height: 100%;
+}
+
+/* Tab style */
+.lumise_tabs_wrapper {
+    float: left;
+    width: 100%;
+}
+
+.lumise_tab_nav {
+    float: left;
+    width: 100%;
+}
+
+.lumise_tab_nav li {
+    float: left;
+}
+
+html body .lumise_wrapper .lumise_tab_nav li a {
+    display: block;
+    font-weight: 500;
+    color: #54575a !important;
+    padding: 5px 30px;
+    background: #f3f3f3;
+    letter-spacing: 0.3px;
+    margin-right: -1px;
+    border: 1px solid #c7c7c7;
+    position: relative;
+    z-index: 11;
+}
+html body .lumise_wrapper .lumise_tab_nav li a i{
+    margin-left: 10px;
+    display: none;
+}
+html body .lumise_wrapper .lumise_tab_nav li a i:hover{
+    color: #000 !important;
+}
+html body .lumise_wrapper .lumise_tab_nav li.active a i{
+    display: inline-block;
+    color: #969696;
+    margin-right: -5px;
+}
+.lumise_content .lumise_tab_nav li a:hover {
+    background: #fff;
+    text-decoration: none;
+    opacity: 1 !important;
+}
+
+html body .lumise_wrapper .lumise_tab_nav li.active a {
+    background: #fff;
+    color: #393749;
+    border-bottom-color: #fff;
+}
+
+.lumise_tabs {
+    float: left;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    padding: 40px 40px 20px 30px;
+    margin-top: -1px;
+}
+
+.lumise_tab_content.active {
+    display: block;
+}
+
+.lumise_tab_content {
+    float: left;
+    width: 100%;
+    display: none;
+    -webkit-animation: fadeEffect 0.4s;
+    animation: fadeEffect 0.4s;
+}
+.lumise_tab_content div[data-view="table"] {
+    overflow: auto;
+    max-height: 400px;
+}
+.lumise_content div[data-view="table"] table tbody td:first-child{
+    width: 80px;
+}
+#lumise-popup, .lumise-popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.69);
+    display: none;
+    z-index: 1000000000000;
+}
+
+.lumise-popup-content {
+    width: 1080px;
+    max-width: 80%;
+    height: 80vh;
+    margin: 10vh auto 0;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.lumise-popup-content.lumise-multi-cliparts {
+    width: 60%;
+}
+
+.lumise-multi-cliparts .lumise_form_group > span{
+    width: 140px;
+}
+.lumise-multi-cliparts .lumise_form_group .lumise_form_content{
+    width: calc(100% - 140px);
+    max-width: 100%;
+    text-align: left;
+}
+.lumise-multi-cliparts .lumise_form_group input[type="text"]{
+    max-width: 100%;
+}
+
+.lumise-popup header,
+#lumise-popup header {
+    float: left;
+    width: 100%;
+    text-align: left;
+    background: #f5f5f5;
+    padding: 10px 24px 10px 20px;
+    position: relative;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lumise-popup header h3,
+#lumise-popup header h3 {
+    color: #30373b;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px;
+}
+#lumise-popup header h3 > span{
+	float: left;
+    width: 100%;
+    color: #30373b;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 0 8px;
+    text-align: left;
+    margin: 0;
+}
+#lumise-popup header h3 > small{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #999;
+    float: left;
+    line-height: 34px;
+}
+.lumise-popup header h3 button,
+#lumise-popup header h3 button{
+	float: left;
+    margin: 0 10px 10px 0;
+}
+#lumise-popup header input {
+    border: 1px solid #ccc;
+    height: 36px;
+    padding: 0 10px;
+    font-size: 14px;
+    border-radius: 2px;
+    outline: none;
+    width: 350px;
+}
+
+#lumise-popup header input:focus {
+    background: #f7f7db;
+}
+
+#lumise-popup header #lumise-language-selected {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#lumise-popup header #lumise-language-selected button {
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 3px;
+    background: #4DB6AC;
+    color: #fff;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+
+#lumise-popup header #lumise-language-selected button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+}
+
+#lumise-popup header .close-pop,
+.lumise-popup header .close-pop,
+.lumise-popup header .pop-save {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    top: 7px;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: all 0.3s ease 0s;
+}
+.lumise-popup header .pop-save {
+    right: 70px;
+}
+.lumise_field_stages #lumise-popup header .close-pop {
+    top: 20px;
+    right: 20px;
+}
+.lumise-popup header .close-pop:hover,
+.lumise-popup header .pop-save:hover,
+#lumise-popup header .close-pop:hover{
+    opacity: 1;
+}
+#lumise-list-colors #lumise-list-colors-body{
+    max-height: calc(100% - 47px);
+    overflow: auto;
+    display: inline-block;
+    width: 100%;
+}
+#lumise-list-colors #lumise-list-colors-body .col{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+#lumise-list-colors #lumise-list-colors-body .col h3{
+    font-weight: normal;
+    font-size: 18px;
+    color: #555;
+    margin-top: 0px;
+}
+#lumise-list-colors #lumise-list-colors-body .col h3 a{
+    float: right;
+    font-size: 13px;
+    margin-left: 15px;
+    text-decoration: none;
+    margin-top: 7px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    height: 18px;
+    line-height: 18px;
+}
+#lumise-list-colors #lumise-list-colors-body .col h3 a:first-child{
+    border: none;
+    padding-right: 0px
+}
+#lumise-list-colors #lumise-list-colors-body .col h3 a[href="#delete"]{
+    color: red;
+}
+#lumise-list-colors #lumise-list-colors-body .col h3 a:hover{
+    text-decoration: underline;
+}
+#lumise-list-colors #lumise-list-colors-body .col li{
+    float: left;
+    padding: 10px;
+    margin: 5px 10px 5px 0;
+    width: calc(33% - 5px);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all ease 250ms;
+    background: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+#lumise-list-colors #lumise-list-colors-body .col li:nth-child(3n){
+    margin-right: 0px;
+}
+#lumise-list-colors #lumise-list-colors-body .col li input[type="checkbox"]{
+    display: none;
+}
+#lumise-list-colors #lumise-list-colors-body .col li input[type="checkbox"]:checked+i.fa{
+    display: block;
+}
+#lumise-list-colors #lumise-list-colors-body .col li i.fa{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #fefefe;
+    display: none;
+}
+#lumise-list-colors #lumise-list-colors-body .col li i.fa:before{
+    z-index: 1;
+    position: relative;
+    top: -3px;
+    right: -3px;
+}
+#lumise-list-colors #lumise-list-colors-body .col li i.fa:after{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    height: 0px;
+    width: 0px;
+    content: "";
+    border: 24px solid transparent;
+    border-left: 24px solid #93c756;
+    transform: rotate(-45deg) translateY(0px) translateX(35px);
+    z-index: 0;
+}
+#lumise-list-colors #lumise-list-colors-body .col li:hover{
+    background: #ccc;
+    border-color: transparent;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp input[type="text"]{
+    width: 140px;
+    height: 34px;
+    float: left;
+    padding: 0 10px;
+    margin-right: 5px;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp input[name="label"]{
+    width: 200px;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp input[type="color"]{
+    width: 50px;
+    height: 34px;
+    padding: 0px 1px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 0;
+    cursor: copy;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp input[type="color"]+span{
+    line-height: 13px;
+    color: #aaa;
+    background: #ddd;
+    margin-top: 1px;
+    padding: 4px 8px;
+    text-align: center;
+    display: inline-block;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 12px;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp button{
+    margin: 0px 10px 0px 0px;
+    height: 34px;
+    padding: 0 18px;
+    background: #dcdcdc;
+    border: none;
+    line-height: 34px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+    color: #505050;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp button:hover{
+    background: #b5b5b5;   
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp button[data-func="apply-now"]{
+    background: #93c756;
+    color: #f7f7f7;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp button[data-func="apply-now"]:hover{
+    opacity: 0.75;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp ul{
+    margin-top: 30px;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp ul li{
+    border-radius: 2px;
+    width: auto;
+    padding: 0px 8px;
+    background: #fafafa;
+    border: none;
+    margin: 5px 10px 5px 0;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp ul li:hover{
+    background: #cecece;
+    box-shadow: none;
+}
+#lumise-list-colors #lumise-list-colors-body .col .colors-ul{
+    height: calc(80vh - 130px);
+    overflow: auto;
+}
+#lumise-list-colors #lumise-list-colors-body .col .colors-ul p.empty{
+    background: #eee;
+    padding: 10px;
+    font-size: 14px;
+    border-left: 5px solid #f3de06;
+}
+#lumise-list-colors #lumise-list-colors-body .col .create-color-grp ul{
+    height: calc(80vh - 250px);
+    overflow: auto;
+    border-top: 1px dotted #ccc;
+    padding-top: 14px;
+}
+/* #lumise-popup header .close-pop:before {
+    height: 3px;
+    width: 25px;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    transform: rotate(-45deg);
+    transition: all 0.3s ease 0s;
+    background: #999;
+    transform-origin: left;
+}
+
+#lumise-popup header .close-pop:after {
+    height: 3px;
+    width: 25px;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    transform: rotate(45deg) translate(-5px, 5px);
+    transition: all 0.3s ease 0s;
+    background: #999;
+    transform-origin: right;
+} */
+
+#lumise-popup header .close-pop:hover:before, #lumise-popup header .close-pop:hover:after {
+    background: #4DB6AC;
+}
+
+#lumise-popup div.lumise-langs-wrp {
+    float: left;
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 20px;
+    position: relative;
+    overflow: auto;
+}
+
+#lumise-popup div.lumise-langs-wrp h3 {
+    font-weight: 500;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+#lumise-popup ul:not(.list-cate) {
+    float: left;
+    width: 100%;
+}
+
+#lumise-popup ul:not(.list-cate) li {
+    float: left;
+    width: 16%;
+    text-align: left;
+    padding: 8px 0;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+#lumise-popup ul li:nth-child(5n) {
+    border: none;
+}
+
+#lumise-popup ul li img {
+    margin-right: 10px;
+    float: left;
+    margin-top: 1px;
+}
+
+#lumise-popup ul li:hover {
+    color: #4DB6AC;
+    text-decoration: underline;
+}
+
+#lumise-cliparts-bundle-left {
+    float: left;
+    width: 50%;
+    border-right: 1px dotted #ddd;
+    min-height: 500px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#lumise-cliparts-bundle-left .lumise_form_group span:not(.less) {
+    text-align: left;
+    width: 100%;
+}
+
+#lumise-cliparts-bundle-left .lumise_form_group {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#lumise-popup .lumise_content h3.side-title {
+    border-bottom: 1px dotted #ccc;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 86%;
+    float: left;
+    margin-top: 10px;
+}
+
+#lumise-cliparts-bundle-left .add_cate {
+    float: left;
+    margin-right: 14px;
+    margin-top: 5px;
+}
+
+#lumise-cliparts-bundle-left .add_cate+.add_cate {
+    border-left: 1px solid #aaa;
+    padding-left: 14px;
+}
+
+#lumise-cliparts-bundle-left #create-category-form {
+    background: #fafafa;
+    display: inline-block;
+    padding: 14px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+#lumise-cliparts-bundle-left #create-category-form footer {
+    margin: 20px 0 0px;
+    display: inline-block;
+    border-top: 1px dotted #aaa;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#lumise-cliparts-bundle-right {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#lumise-cliparts-bundle-right h3.side-title {
+    margin-left: 30px;
+}
+
+#lumise-popup #lumise-cliparts-bundle-right h3#lumise-cliparts-bundle-stt {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 2.25em;
+    border: none;
+    margin-top: 40px;
+}
+
+#lumise-upload-form {
+    display: inline-block;
+    width: 100%;
+    border: 2px dashed rgba(100, 100, 100,.3);
+    padding: 22px 10px;
+    margin: 0px auto 10px;
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    cursor: pointer;
+    text-align: center;
+}
+
+#lumise-upload-form:hover {
+    border: 2px dashed rgba(100, 100, 100,.8);
+}
+#lumise-popup .lumise-multi-cliparts #lumise-cliparts-bundle-stt{
+    text-align: center;
+    border: 0;
+}
+#lumise-popup .lumise-multi-cliparts #lumise-cliparts-bundle-stt span{
+    float: none;
+}
+.lumise-multi-cliparts #lumise-upload-form span{
+    text-align: center;
+    width: 100%;
+} 
+#lumise-upload-form>i {
+    display: block;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #aaa;
+}
+
+#lumise-upload-form input {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+}
+.lumise-field-google_fonts button[data-btn="primary"]{
+	margin: 20px 0 0 0px;
+}
+.lumise-field-google_fonts li{
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+.lumise-field-google_fonts li font{
+    font-size: 30px;
+    line-height: 30px;
+}
+.lumise-field-google_fonts li delete{
+	float: right;
+	color: red;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.lumise-field-google_fonts li delete:hover{
+	text-decoration: underline;	
+}
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/* Dashbroad */
+.lusime_dashbroad.lumise_wrapper{
+    padding: 20px 10px;
+}
+.lusime_dashbroad .lumise_container{
+    display: flex;
+    flex-flow: row wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    box-sizing: border-box;
+}
+
+.lumise-col{
+    float: left;
+    padding: 0 10px;
+}
+
+.lumise-col-4{
+    flex: 1 1 33.33%;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    max-width: 33.33%;
+}
+
+.lumise-col-3{
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    max-width: 25%;
+}
+
+.lumise-col-6{
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    max-width: 50%;
+}
+.lumise-col-12{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    max-width: 100%;
+}
+.lusime_box_stats{
+    padding: 20px;
+}
+.lusime_box_stats i{
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+}
+.lusime_box_stats .box_right{
+    float: left;
+    width: calc(100% - 50px);
+    padding-left: 15px;
+}
+.lusime_box_stats .box_right span{
+    float: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+}
+.lusime_box_stats .box_right p{
+    margin: 3px 0 0;
+    float: left;
+    width: 100%;
+    color: #777;
+}
+.lusime_box_dashbroad,
+.lusime_box_stats {
+    background: #fff;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.lusime_box_dashbroad h3{
+    padding: 10px 15px;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 18px;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.lusime_box_dashbroad .box_content::-webkit-scrollbar{
+    width: 7px;
+}
+
+.lusime_box_dashbroad .box_content::-webkit-scrollbar-thumb{
+    background: #bababa;
+    border-radius: 5px;
+}
+.lusime_box_dashbroad .box_content{
+    float: left;
+    width: 100%;
+    padding: 15px;
+    color: #777;
+    max-height: 310px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.list_thumb.lusime_box_dashbroad .box_content{
+    padding: 7.5px 15px;
+}
+.lusime_box_dashbroad .box_content ul{
+    float: left;
+    width: 100%;
+}
+.lusime_box_dashbroad .box_content ul li{
+    float: left;
+    width: 100%;
+}
+.list_thumb.lusime_box_dashbroad .box_content ul{
+    display: flex;
+    flex-flow: row wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    box-sizing: border-box;
+}
+.list_thumb.lusime_box_dashbroad .box_content ul li{
+    flex: 1 1 33.33333333%;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    max-width: 33.33333333%;
+    padding: 7.5px;
+}
+.lumise_btn{
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.lumise_btn:hover{
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+.lumise_btn.primary{
+    background: #00a0d2;
+    border-color: #0073aa;
+    color: #fafafa;
+}
+.lumise_btn.primary:hover{
+    background: #0091cd;
+    border-color: #0073aa;
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.6);
+    color: #fff;
+}
+.lumise_btn.danger{
+    background: #ca4a1f;
+    border-color: #b1360c;
+    color: #fafafa;
+}
+.lumise_btn.danger:hover{
+    background: #b74018;
+    border-color: #822a0d;
+    box-shadow: inset 0 1px 0 rgb(202, 74, 31);
+    color: #fff;
+}
+.lumise-update-notice{
+    display: inline-block;
+    line-height: 19px;
+    padding: 11px 15px;
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 20px 20px 0px;
+    background-color: #fff;
+    border-left: 4px solid #ffba00;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.lumise-update-notice.top{
+    margin: 20px 0 0 10px;
+}
+.lumise-update-notice.success{
+    border-left: 4px solid #22c122;
+}
+.lumise-update-notice a{
+    text-decoration: none;
+}
+.lumise-update-notice a:hover{
+    text-decoration: underline;
+}
+#lumise-updates p{
+    line-height: 28px;
+}
+#lumise-license h1, #lumise-updates h1{
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 20px;
+    line-height: 29px;
+}
+#lumise-license h1 small{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #5d5d5d;
+}
+#lumise-license h3, #lumise-updates h3{
+    color: #23282d;
+    font-size: 1.3em;
+    margin: 1em 0;
+    font-weight: normal;
+}
+#lumise-license h3.mb0 {
+    margin-bottom: 0px;
+}
+#lumise-updates h2{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+#lumise-license form{
+    font-size: 13px;
+    line-height: 2.3;
+    margin: 0 0 1.5em 0;
+}
+#lumise-license ul{
+    list-style: disc;
+    margin-left: 20px;
+}
+#lumise-license input{
+    height: 34px;
+    margin-right: 5px;
+    padding: 0 10px;
+}
+#lumise-license .lumise_btn{
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+}
+.box_content .thumb_preview{
+    float: left;
+    width: 100%;
+    position: relative;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.box_content .thumb_preview img{
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.box_content .thumb_preview .thumb_overlay{
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: column wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    box-sizing: border-box;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;
+    border-radius: 4px;
+}
+.box_content .thumb_preview:hover .thumb_overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.box_content .thumb_preview .thumb_overlay h4{
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.box_content .thumb_preview .thumb_overlay p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+}
+.lumise_blog.lusime_box_dashbroad .box_content ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+#lumise-rss-display .lumise_wrap{
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 14px;
+}
+#lumise-rss-display .lumise_wrap:last-child{
+	border: none;
+}
+#lumise-rss-display .lumise_wrap figure {
+    padding-top: 8px;
+}
+.lumise_wrap{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.lumise_wrap:last-child{
+    margin: 0;
+}
+.lumise_wrap figure{
+    float: left;
+    width: 140px;
+    margin: 0;
+}
+.lumise_wrap figure img{
+    display: block;
+    max-width: 100%;
+}
+.lumise_right{
+    float: left;
+    width: calc(100% - 140px);
+    padding-left: 15px;
+}
+.lumise_right p{
+    float: left;
+    width: 100%;
+    margin: 5px 0 0;
+}
+.lumise_right a{
+    font-weight: 500;
+    color: #4DB6AC;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+}
+.lumise_right a:hover{
+    text-decoration: underline;
+}
+.lumise_meta{
+    float: left;
+    width: 100%;
+}
+.lumise_meta span{
+    float: left;
+    margin-right: 15px;
+    color: #afafaf;
+    font-size: 13px;
+}
+.lumise_meta span i{
+    margin-right: 4px;
+}
+.lusime_box_dashbroad .lumise_table a{
+    font-weight: 500;
+    color: #4DB6AC;
+    text-decoration: none;
+}
+.lusime_box_dashbroad .lumise_table a:hover{
+    text-decoration: underline;
+}
+/* PRINTING*/
+#lumise_printing_types .lumise_tab_nav li {
+    margin-bottom: -1px;
+}
+
+#lumise_printing_types .lumise_tab_nav {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 0 10px;
+    margin-top: 30px;
+    display: none;
+}
+
+#lumise_printing_types .lumise_tabs{
+    display: none;
+}
+
+#lumise_printing_types .lumise_radio_content.lumise-open .lumise_tab_nav {
+    display: block;
+}
+#lumise_printing_types .lumise_radio_content.lumise-open .lumise_tabs {
+    border: none;
+    padding: 40px 20px 20px 20px;
+    display: block;
+}
+
+
+
+.lumise_radio_content {
+    margin-top: 12px;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    -moz-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;}
+
+#lumise_printing_types .lumise_tab_nav.hidden {
+    margin-top: 0px;
+}
+
+.lumise_radio_content.lumise-open {
+    max-height: 999px;
+}
+
+.lumise-order-details{
+    padding-top: 20px;
+}
+.lumise-order-details .left, .lumise-order-details .right{
+    float: left;
+    width: 50%;
+}
+
+.lumise-order-details .col-3{
+    float: left;
+    width: 32%;
+    margin: 0 2% 0 0;
+}
+
+.lumise-order-details .col-3:last-child{
+    margin: 0;
+}
+
+.lumise-order-details .col-3 p{
+    float: left;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.lumise-order-details .col-3 h4{
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.lumise-order-details .col-3 span{
+    float: left;
+}
+
+.lumise-order-details strong{
+    font-weight: 500;
+    float: left;
+    color: #666;
+    padding-right: 5px;
+}
+.lumise-order-details .order_status{
+    float: left;
+    width: 100%;
+}
+.lumise-order-details .order_status form{
+    float: left;
+}
+.lumise-order-details .order_status select{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 2px;
+    padding: 0 4px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.lumise-order-details .order_status input{
+    float: left;
+}
+#lumise-lightbox {
+    position: fixed;
+    z-index: 1000000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #3a3a3a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#lumise-lightbox .kalb-overlay {
+    position: fixed;
+    z-index: 1;
+    background: rgba(0,0,0,.75);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+#lumise-lightbox #lumise-lightbox-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    max-height: 100vh;
+    background: #f2f2f2;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px 0 rgba(10,10,10,.35);
+    overflow: hidden;
+}
+
+#lumise-lightbox #lumise-lightbox-footer {
+    width: 100%;
+    float: left;
+    background: #eee;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative
+}
+
+#lumise-lightbox #lumise-lightbox-footer a {
+    color: #ff66a6
+}
+
+#lumise-lightbox #lumise-lightbox-footer button+button {
+    margin-left: 20px
+}
+
+#lumise-lightbox #lumise-lightbox-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0px;
+    width: auto;
+    height: inherit;
+    min-width: 850px;
+    box-sizing: border-box;
+    max-height: calc(100vh - 100px);
+    min-height: 250px;
+}
+
+#lumise-lightbox #lumise-lightbox-content i.lumise-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#lumise-lightbox #lumise-lightbox-content iframe {
+    width: 100%;
+    border: none;
+    height: calc(90vh - 82px);
+    float: left;
+}
+
+#lumise-lightbox #lumise-lightbox-content textarea.s1 {
+    width: 450px;
+    height: 80px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font: 15px/1.6em Helvetica Neue,Roboto,sans-serif;
+    color: #555
+}
+
+#lumise-lightbox #lumise-lightbox-content h3.title {
+    margin: 0 0 20px;
+    padding: 12px 20px;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    color: #393749;
+    letter-spacing: .5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-weight: 500;
+    background: #eee;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#lumise-lightbox #lumise-lightbox-content h3.title a {
+    text-decoration: none;
+    text-transform: initial;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-left: 10px;
+    color: #3f4652;
+    background-color: #dcdcdc;
+    padding: 0px 10px;
+    border-radius: 2px;
+    height: 28px;
+    display: inline-block;
+    line-height: 26px;
+}
+
+#lumise-lightbox #lumise-lightbox-content h3.title a:hover {
+    background: #3f4652;
+    color: #eee;
+}
+
+#lumise-lightbox #lumise-lightbox-content h3.title a i {
+    font-size: 16px;
+    bottom: -3px;
+    position: relative;
+}
+
+#lumise-lightbox a.kalb-close {
+    font-size: 24px;
+    padding: 9px;
+    color: #ccc;
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    text-decoration: none;
+    color: #999;
+    border-radius: 5px;
+    opacity: .3;
+    z-index: 3;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#lumise-lightbox #lumise-lightbox-body a.kalb-close:hover {
+    opacity: 1
+}
+
+#lumise-lightbox a.kalb-close:hover {
+    color: #f70961
+}
+
+#lumise-lightbox .lumise-lightbox-form {
+    padding: 4px 24px 14px;
+}
+
+#lumise-lightbox .lumise-lightbox-form h3.title {
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p.right {
+    text-align: right;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p input {
+    border: 1px solid #ccc;
+    height: 36px;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p input[name="color"] {
+    border-color: transparent;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p input:focus {
+    background: #f7f7e2;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p button {
+    border: none;
+    background: #ddd;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    outline: none;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p button.primary {
+    background: #3fc7ba;
+    color: #efefef;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p button:hover {
+    opacity: 0.7;
+}
+
+#lumise-lightbox .lumise-lightbox-form>p label {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.lumise-order-thumbnail{
+    max-width: 70px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+
+#lumise-lightbox #lumise-list-items-wrp {
+	float: left;
+	background: #3f4652;
+	width: 100%;
+}
+
+#lumise-lightbox #lumise-list-items-wrp ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="navigation"] {
+    float: left;
+    width: calc(100% - 260px);
+    margin-top: 54px;
+    background: #f2f2f2;
+    padding: 14px 22px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px dotted #ccc;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="navigation"] li{
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="navigation"]+ul[data-view="items"]{
+	margin-top: 0px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"] {
+    float: left;
+    width: 260px;
+    overflow: auto;
+    max-height: calc(90vh - 122px);
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"]>h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    background: rgb(47, 51, 58);
+    margin: 0px;
+    padding: 18px 15px;
+    color: #eee;
+    letter-spacing: .5px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"] li {
+    padding: 6px 10px 6px 12px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ccc;
+    margin: 0px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"] li[data-lv="0"]:before{
+    content: "\f105";
+    font-family: FontAwesome;
+    padding: 0;
+    opacity: .75;
+    margin-right: 5px;
+    float: left;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"] li:hover {
+    background: rgba(238, 238, 238, 0.07);
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"] li.active{
+    background: #3fc7ba;
+    color: #eee;
+    border-bottom-color: #3fc7ba;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"] li:last-child {
+	border-bottom: none;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="categories"] li:not([data-lv="0"]){
+    padding-left: 25px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] {
+    float: left;
+    width: calc(100% - 260px);
+    background: #f2f2f2;
+    padding: 24px 0 20px 0;
+    overflow: auto;
+    height: calc(90vh - 176px);
+    position: relative;
+    margin-top: 47px;
+    min-height: 540px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li[data-view="noitem"]{
+    width: 94%;
+    padding: 80px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: transparent;
+    box-shadow: none;
+    cursor: default;
+}
+#lumise-lightbox #lumise-list-items-wrp h3[data-view="top"] {
+    text-transform: uppercase;
+    font-size: 13px;
+    background: #fafafa;
+    margin: 0px;
+    padding: 5px 2.2% 4px;
+    letter-spacing: .5px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: calc(100% - 260px);
+    z-index: 1;
+    box-shadow: 0px 1px 3px 0 rgba(0,0,0,.1);
+    line-height: 38px;
+}
+#lumise-lightbox #lumise-list-items-wrp h3[data-view="top"] a{
+    text-transform: capitalize;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0px;
+    background: #e5e5e5;
+    padding: 3px 10px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+#lumise-lightbox #lumise-list-items-wrp h3[data-view="top"] a i{
+    line-height: inherit;
+    font-size: 14px;
+    height: inherit;
+    width: inherit;
+}
+#lumise-lightbox #lumise-list-items-wrp h3[data-view="top"] a:hover{
+    background: #ddd;
+}
+#lumise-lightbox #lumise-list-items-wrp h3[data-view="top"] input{
+    height: 34px;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: inherit;
+    width: 300px;
+    border-radius: 3px;
+    background: #e8e8e8;
+    outline: none;
+    font-weight: normal;
+    float: right;
+    margin-right: 34px;
+    margin-top: 2px;
+}
+#lumise-lightbox #lumise-list-items-wrp h3[data-view="top"] input:focus{
+    background: #e5e5e5;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li {
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    width: 29.3%;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.08);
+    margin: 0 0 20px 3%;
+    position: relative;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li:nth-child(3n+1){
+    clear: both;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li[data-loadmore]{
+    clear: both;
+    display: inline-block;
+    float: none;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0;
+    padding: 0px;
+    min-height: 35px;
+    line-height: 34px;
+    box-shadow: none;
+    background: #3f4652;
+    width: 45%;
+    color: #eee;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li[data-loadmore]:hover{
+    background: #181b21;    
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li[data-loadmore] .lumise-spinner{
+    margin: 0px;
+    background: #181b21;	
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li[data-loadmore] .lumise-spinner{
+	margin: 0px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li[data-current="true"]:after{
+    position: absolute;
+    content: "\f147";
+    font-family: dashicons;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #fff;
+    background: #3fc7ba;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li span[data-view="thumbn"] {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li span[data-view="thumbn"]:after {
+    position: absolute;
+    content: attr(data-start);
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    background: rgba(58, 58, 58, 0.9);
+    color: #eee;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 5px 14px;
+    border-radius: 2px;
+    transition: all 250ms ease;
+    opacity: 0;
+    letter-spacing: .5px;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li:hover span[data-view="thumbn"]:after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li span[data-view="name"] {
+    font-weight: 600;
+    color: #3A3A3C;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    padding: 10px;
+    background: #fafafa;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li:hover span[data-view="name"] {
+    color: #3fc7ba;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li span[data-view="price"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #3fc7ba;
+    font-size: 14px;
+    font-weight: 600;
+}
+#lumise-lightbox #lumise-list-items-wrp ul[data-view="items"] li img {
+    max-height: 260px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Tags Field */
+.tagit{
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+    padding: 3px 5px;
+}
+ul.tagit li {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+    position: relative;
+}
+ul.tagit li.tagit-choice{
+    background-color: #ebebeb;
+}
+ul.tagit li.tagit-choice-editable {
+    padding: 0 18px 0 10px;
+    line-height: 26px;
+}
+ul.tagit li.tagit-choice-editable span.tagit-label{
+    display: block;
+    color: #505050;
+}
+ul.tagit li.tagit-choice .tagit-close{
+    cursor: pointer;
+    position: absolute;
+    color: #777 !important;
+    right: 3px;
+    top: 50%;
+    margin-top: -9px;
+    line-height: 17px;
+    font-size: 18px;
+    font-weight: 500;
+}
+ul.tagit li input{
+    border: 0;
+    float: left;
+    width: 100px;
+    line-height: 26px;
+    height: 26px;
+    background: transparent;
+    box-shadow: none;
+}
+ul.tagit li input:focus{
+    box-shadow: none;
+}
+input.tagit-hidden-field {
+    display: none;
+}
+.tagit-autocomplete{
+    border-top: 1px solid #ddd;
+}
+span.lumise-invalid-attribute{
+    width: 100%;
+    color: red;
+    font-weight: normal;
+    margin-bottom: 13px;
+}
+.lumise_form_group .lumise-field-attributes .lumise-attribute>header.lumise-invalid span[data-func=title]{
+    color: red;
+}
+span.lumise-msg-invalid{
+    color: red;
+    display: block;
+    margin-bottom: 20px;
+}
+.lumise-payment-method{
+    text-transform: capitalize;
+}
+.btn-print-design{
+    white-space: nowrap;
+}
+.system-status {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.system-status li{
+    font-size: 16px;
+    line-height: 38px;
+    color: red;
+    display: block;
+}
+.system-status li:before{
+    margin-right: 10px;
+    content: "\f00d";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: red;
+    color: #fff;
+    border-radius: 100%;
+    padding: 5px;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    text-align: center;
+}
+.system-status li.true{
+   color: green;
+}
+.system-status li.true:before{
+   content: "\f00c";
+   background: green;
+}
+/*=========END============
